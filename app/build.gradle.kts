@@ -33,9 +33,17 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
+    buildFeatures{
+        viewBinding =true
+    }
 }
 
 dependencies {
+    //nav
+    implementation (libs.androidx.navigation.fragment.ktx)
+    implementation (libs.androidx.navigation.ui.ktx)
+    //lottie animation
+    implementation (libs.lottie)
 
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)

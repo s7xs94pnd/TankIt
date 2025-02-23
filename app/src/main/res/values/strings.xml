@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">TankIt</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="splashLogo">splash logo</string>
+    <string name="tank_it">Tank It</string>
 </resources>
